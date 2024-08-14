@@ -4,18 +4,6 @@
 
 This is a simple yet powerful demonstration of Go's concurrency model using goroutines and channels. It is designed to fetch data from multiple URLs concurrently, showcasing the advantages of using Go for high-performance, scalable applications.
 
-## Project Structure
-
-```
-concurrent-web-scraper
-├── main.go                     # Entry point for the application
-├── scraper
-│   ├── scraper.go              # Contains the scraping logic
-│   └── types.go                # Defines the types used in the scraper
-├── go.mod                      # Go module file
-└── go.sum                      # Go dependencies file
-```
-
 ## Features
 
 - **Concurrency with Goroutines**: Utilizes Go's lightweight goroutines to perform multiple tasks simultaneously, making it ideal for handling many concurrent operations.
